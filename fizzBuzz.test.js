@@ -20,6 +20,6 @@ describe("effectuer le kata fizzBuzz du coding dojo ", () => {
     expect(fizzBuzz(3)).toEqual("fizz");
   });
   it("test de la function fizzBuzz avec un multiple de 3 et de 5 qui renvoi fizzBuzz", () => {
-    expect(fizzBuzz(15)).toEqual("fizzBuzz");
+    expect(fizzBuzz(15)).toEqual("Buzz");
   });
 });
